@@ -3,7 +3,75 @@
     src: url(https://fonts.google.com/specimen/Inter);
   }
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: 80%;
+    height: 80%;
     font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+  padding: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: auto 0;
+  
+}
+
+header nav ul li{
+  margin: 0 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header nav ul li:hover {
+  color: rgb(255, 142, 3);
+}
+
+.firtSection {
+  display: flex;
+}
+
+section .containerImg {
+  width: 80%;
+  margin: 10px 20px 10px 0;
+ 
+}
+
+section .containerImg img {
+  width: 100%;
+}
+
+aside {
+  background: #000;
+  color: white;
+  width: 20%;
+  margin: 10px 0 0 20px;
+}
+
+aside div {
+    width: 80%;
+    margin: auto;
+}
+
+.containerH1 {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.containerH1 h1 {
+  font-size: 60px;
+}
+.lasteSection{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
