@@ -36,11 +36,15 @@ header nav ul li:hover {
 .firtSection {
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 section .containerImg {
-  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
   margin: 10px 20px 10px 0;
+  box-sizing: border-box;
  
 }
 
@@ -48,11 +52,13 @@ section .containerImg img {
   width: 100%;
 }
 
+
 aside {
   background: #000;
   color: white;
   width: 30%;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 ;
+  box-sizing: border-box;
 }
 
 aside div {
@@ -104,7 +110,8 @@ aside div p {
 .container_h1 h1 {
   font-size: 60px;
  margin: 20px 20px 20px 0;
-  width: 100%;
+ box-sizing: border-box;
+
   
 }
 
@@ -138,18 +145,46 @@ aside div p {
   background-color: rgb(27, 27, 27);
 
 }
+@media (max-width: 1250px ) {
+  section .containerImg{
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+  }
+  .container_h1_parag{
+    width: 100%;
+  }
+  .container_h1 h1 {
+    font-size: 45px;
+   margin: 20px 10px 20px 0;
+   box-sizing: border-box;
+  }
+  .containerParagButton p{
+    line-height: 1.2em;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .containerParagButton button {
+    width: 60%;
+  }
+}
+
+
 .lasteSection{
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
   width: 100%;
-   margin-top: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .card {
   display: flex;
-  justify-content: s;
-  margin: 20px 20px 30px 0;
+  width: 500px;
+  margin: 20px 0px 0;
+  box-sizing: border-box;
   
 }
 .card img {
@@ -168,3 +203,7 @@ aside div p {
   font-size: 2rem;
   color: rgb(159, 157, 157);
 }
+ .containerText p {
+  display: block;
+  
+ }
