@@ -39,7 +39,7 @@ header nav ul li:hover {
 }
 
 section .containerImg {
-  width: 70%;
+  width: 60%;
   margin: 10px 20px 10px 0;
  
 }
@@ -140,7 +140,7 @@ aside div p {
 }
 .lasteSection{
   display: flex;
-  flex-wrap: wrap;
+ 
   margin-top: 20px;
   width: 100%;
    margin-top: 20px;
@@ -149,14 +149,16 @@ aside div p {
 .card {
   display: flex;
   justify-content: s;
-  margin: 20px 20px 30px 0;
+  margin: 10px 10px 20px 0;
   
 }
-.card img {
+/* .card img {
   margin: 0;
   padding: 0;
+  width: 150px;
+  height: 100px;
 
-}
+} */
 
 .containerText {
   display: flex;
@@ -165,6 +167,12 @@ aside div p {
   margin: 0 0 0 20px;
 }
 .containerText h2 {
+  display: inline;
   font-size: 2rem;
   color: rgb(159, 157, 157);
 }
+ .containerText p {
+  display:inline;
+  margin: 0;
+  padding: 0;
+ }
